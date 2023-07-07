@@ -19,7 +19,9 @@ Proposta: queremos criar um site 100% novo, com uma linguagem que esteja em linh
 - D. Corrigir formatações diferentes em páginas diferentes (ex.: “Time” e “Metodologia”);
 - E. Melhoria do mecanismo de transparência e prestação de contas com doadores;
 - F. Incluir uma opção de contato que não esteja só no final da página de dúvidas;
-- G. Incluir a possibilidade de suspender a doação pelo site (tivemos um caso recente que não conseguiu e teve que pedir por email).2. doesuafesta.com.br
+- G. Incluir a possibilidade de suspender a doação pelo site (tivemos um caso recente que não conseguiu e teve que pedir por email).
+
+### 2. doesuafesta.com.br
 
 ### Questões:
 #### Embora a jornada do usuário seja simples, ainda assim alguns criadores de campanha não criam conteúdo com bom engajamento. Além disso, meios de pagamento precisam ser atualizados, idealmente integrando uma ferramenta/plugin de CRM e gateway confiável (aceitando PIX, p. ex).
