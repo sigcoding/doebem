@@ -1,4 +1,3 @@
-import { AppStoreLink } from "./AppStoreLink";
 import { CircleBackground } from "./CircleBackground";
 import { Container } from "./Container";
 
@@ -21,9 +20,6 @@ export function CallToAction() {
             account today and we’ll send you a tip guaranteed to double your
             first investment.
           </p>
-          <div className="mt-8 flex justify-center">
-            <AppStoreLink color="white" />
-          </div>
         </div>
       </Container>
     </section>
