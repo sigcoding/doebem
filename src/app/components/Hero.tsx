@@ -7,7 +7,7 @@ import { motion, useInView, useMotionValue } from "framer-motion";
 
 import { AppScreen } from "./AppScreen";
 import { Container } from "./Container";
-import { DonateWithWoovi } from "./DonateWithWoovi";
+import { DonateWithWoovi } from "./DonateWIthWoovi";
 import { Button } from "./Button";
 import YouTubePlayer, { YouTubeProps } from "react-youtube";
 

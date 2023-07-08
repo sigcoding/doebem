@@ -7,7 +7,7 @@ import { Container } from "./Container";
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
 import { Button } from "./Button";
-import { DonateWithWoovi } from "./DonateWithWoovi";
+import { DonateWithWoovi } from "./DonateWIthWoovi";
 
 function MenuIcon(props: any) {
   return (
