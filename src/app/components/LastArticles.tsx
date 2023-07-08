@@ -29,32 +29,38 @@ export function LastArticles() {
         <div className="flex justify-center lg:block lg:justify-normal">
           <div className="mt-16 flex flex-col gap-y-4 lg:grid lg:grid-cols-2 max-w-6xl gap-x-8">
             <a
-              className="h-96 w-[36rem] backdrop-blur-sm flex justify-center items-center hover:underline text-white transition-all ease-linear duration-100"
+              className="lg:h-96 lg:w-[36rem] lg:backdrop-blur-sm lg:flex lg:justify-center lg:items-center lg:hover:underline lg:text-white lg:transition-all lg:ease-linear lg:duration-100 lg:mt-0
+              
+              h-fit w-[36rem] flex justify-center items-center hover:underline text-white transition-all ease-linear duration-100 mt-6
+              "
               href={
                 "https://doebem.org.br/2022/12/matchfunding-do-dia-de-doar-vai-beneficiar-ongs-com-eficacia-comprovada/"
               }
             >
               <div
-                className={`absolute bg-[url("https://doebem.org.br/wp-content/uploads/2022/12/people-hands-bringing-money-together-to-donate-to-charity.jpg")] h-96 w-[36rem] opacity-40 bg-cover hover:opacity-20`}
+                className={`lg:absolute lg:bg-[url("https://doebem.org.br/wp-content/uploads/2022/12/people-hands-bringing-money-together-to-donate-to-charity.jpg")] lg:h-96 lg:w-[36rem] lg:opacity-40 lg:bg-cover lg:hover:opacity-20 absolute bg-[url("https://doebem.org.br/wp-content/uploads/2022/12/people-hands-bringing-money-together-to-donate-to-charity.jpg")] h-[12rem] w-[20rem] opacity-40 bg-cover bg-left-2 hover:opacity-20`}
               />
 
-              <h1 className="text-3xl text-white font-extrabold relative px-8">
+              <h1 className="lg:text-3xl lg:text-white lg:font-extrabold lg:relative lg:px-8 text-xl font-extrabold relative px-2 w-[18rem]">
                 Matchfunding do Dia de Doar vai beneficiar ONGs com eficácia
                 comprovada
               </h1>
             </a>
 
             <a
-              className="h-96 w-[36rem] backdrop-blur-sm flex justify-center items-center hover:underline text-white transition-all ease-linear duration-100"
+              className="lg:h-96 lg:w-[36rem] lg:backdrop-blur-sm lg:flex lg:justify-center lg:items-center lg:hover:underline lg:text-white lg:transition-all lg:ease-linear lg:duration-100 lg:mt-0
+              
+              h-fit w-[36rem] flex justify-center items-center hover:underline text-white transition-all ease-linear duration-100 mt-[7rem] mb-[2rem]
+              "
               href={
                 "https://doebem.org.br/2022/11/dia-de-doar-sua-chance-em-dobro-de-fazer-o-bem/"
               }
             >
               <div
-                className={`absolute bg-[url("https://doebem.org.br/wp-content/uploads/2022/11/hscgb-donate-header.png")] h-96 w-[36rem] opacity-40 bg-cover hover:opacity-20`}
+                className={`lg:absolute lg:bg-[url("https://doebem.org.br/wp-content/uploads/2022/11/hscgb-donate-header.png")] lg:h-96 lg:w-[36rem] lg:opacity-40 lg:bg-cover lg:hover:opacity-20 absolute bg-[url("https://doebem.org.br/wp-content/uploads/2022/11/hscgb-donate-header.png")] h-[12rem] w-[20rem] opacity-40 bg-cover bg-left-2 hover:opacity-20 `}
               />
 
-              <h1 className="text-3xl text-white font-extrabold relative px-8">
+              <h1 className="lg:text-3xl lg:text-white lg:font-extrabold lg:relative lg:px-8 text-xl font-extrabold relative px-2 w-[18rem]">
                 Matchfunding do Dia de Doar vai beneficiar ONGs com eficácia
                 comprovada
               </h1>
