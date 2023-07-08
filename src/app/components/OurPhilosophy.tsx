@@ -29,14 +29,14 @@ export function OurPhilosophy() {
 
         <div className="lg:jusitfy-normal flex justify-center">
           <div className="mt-16 max-w-6xl hidden gap-x-4 lg:flex justify-center">
-            <YouTubePlayer videoId="zfbPDmQPRmU" />
+            <YouTubePlayer videoId="zfbPDmQPRmu" />
 
             <div className="mt-8 lg:mt-0">
               <YouTubePlayer videoId="Diuv3XZQXyc" />
             </div>
           </div>
 
-          <div className="mt-16 max-w-6xl flex-col lg:hidden justify-center">
+          <div className="lg:jusitfy-normal flex justify-center">
             <YouTubePlayer videoId="zfbPDmQPRmU" />
 
             <div className="mt-8 lg:mt-0">
