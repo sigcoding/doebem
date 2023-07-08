@@ -26,7 +26,7 @@ export function CallToAction() {
             <h1 className="lg:text-6xl mt-4 text-4xl font-extrabold text-gray-300 border-b-4 lg:w-auto w-56 border-woovi-500">
               R$ 255.640,20
             </h1>
-            <p className="mt-4 text-lg text-gray-300">Dados até agora</p>
+            <p className="mt-4 text-lg text-gray-300">Doados até agora</p>
           </div>
         </Container>
       </div>
