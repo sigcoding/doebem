@@ -7,6 +7,7 @@ import { Container } from "./Container";
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
 import { Button } from "./Button";
+import { DonateWithWoovi } from "./DonateWithWoovi";
 
 function MenuIcon(props: any) {
   return (
@@ -99,22 +100,18 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#features">
-                              Features
+                            <MobileNavLink href="#secondary-features">
+                              O que fazemos?
                             </MobileNavLink>
-                            <MobileNavLink href="#reviews">
-                              Reviews
+                            <MobileNavLink href="#philantropy">
+                              Filantropia
                             </MobileNavLink>
-                            <MobileNavLink href="#pricing">
-                              Pricing
+                            <MobileNavLink href="#philosophy">
+                              Nossa filosofia
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
-                          </div>
-                          <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
-                              Log in
-                            </Button>
-                            <Button href="#">Download the app</Button>
+                            <MobileNavLink href="#articles">
+                              Artigos
+                            </MobileNavLink>
                           </div>
                         </Popover.Panel>
                       </>
@@ -123,12 +120,15 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
-            </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button>
+          </div>
+          <div className="hidden lg:flex">
+            <button
+              className={
+                "rounded-lg transition-colors bg-blue-600 text-white py-2 px-8 font-medium hover:bg-blue-700 text-lg"
+              }
+            >
+              DOAR
+            </button>
           </div>
         </Container>
       </nav>

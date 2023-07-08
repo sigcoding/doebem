@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
-import { PrimaryFeatures } from "./components/PrimaryFeatures";
 import { SecondaryFeatures } from "./components/SecondaryFeatures";
 import { CallToAction } from "./components/CallToAction";
-import { Reviews } from "./components/Reviews";
-import { Pricing } from "./components/Pricing";
-import { Faqs } from "./components/Faqs";
+import { OurPhilosophy } from "./components/OurPhilosophy";
+import { LastArticles } from "./components/LastArticles";
+import { SayingAboutUs } from "./components/SayingAboutUs";
 import { Footer } from "./components/Footer";
 
 export default function Home() {
@@ -26,12 +24,11 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
         <SecondaryFeatures />
         <CallToAction />
-        <Reviews />
-        <Pricing />
-        <Faqs />
+        <OurPhilosophy />
+        <LastArticles />
+        <SayingAboutUs />
       </main>
       <Footer />
     </>
