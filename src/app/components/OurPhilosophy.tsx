@@ -1,7 +1,25 @@
 "use client";
 
 import { Container } from "./Container";
-import YouTubePlayer from "react-youtube";
+import YouTubePlayer, { YouTubeProps } from "react-youtube";
+
+const opts: YouTubeProps["opts"] = {
+  height: "320",
+  width: "440",
+  playerVars: {
+    // https://developers.google.com/youtube/player_parameters
+    autoplay: 0,
+  },
+};
+
+const optsResp: YouTubeProps["opts"] = {
+  height: "250",
+  width: "325",
+  playerVars: {
+    // https://developers.google.com/youtube/player_parameters
+    autoplay: 0,
+  },
+};
 
 export function OurPhilosophy() {
   return (
@@ -28,19 +46,23 @@ export function OurPhilosophy() {
         </p>
 
         <div className="lg:jusitfy-normal flex justify-center">
-          <div className="mt-16 max-w-6xl hidden gap-x-4 lg:flex justify-center">
-            <YouTubePlayer videoId="zfbPDmQPRmu" />
+          <div className="mt-16 max-w-xl hidden gap-x-4 lg:flex justify-center">
+            <YouTubePlayer
+              videoId="zfbPDmQPRmU"
+              opts={opts}
+              className="lg:h-[5rem]"
+            />
 
             <div className="mt-8 lg:mt-0">
-              <YouTubePlayer videoId="Diuv3XZQXyc" />
+              <YouTubePlayer videoId="Diuv3XZQXyc" opts={opts} />
             </div>
           </div>
 
-          <div className="lg:jusitfy-normal flex justify-center">
-            <YouTubePlayer videoId="zfbPDmQPRmU" />
+          <div className="mt-16 max-w-6xl flex-col lg:hidden justify-center">
+            <YouTubePlayer videoId="zfbPDmQPRmU" opts={optsResp} />
 
             <div className="mt-8 lg:mt-0">
-              <YouTubePlayer videoId="Diuv3XZQXyc" />
+              <YouTubePlayer videoId="Diuv3XZQXyc" opts={optsResp} />
             </div>
           </div>
         </div>
