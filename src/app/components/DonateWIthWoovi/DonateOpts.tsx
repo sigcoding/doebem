@@ -179,10 +179,10 @@ export default function DonateOpts({ value, org }: TDonateOptsProps) {
               </div>
 
               <div className="items-top flex space-x-2 mt-4">
-                <Checkbox id="aditional-costs" />
+                <Checkbox id="not-share-donate" />
                 <div className="grid gap-1.5 leading-none">
                   <label
-                    htmlFor="aditional-costs"
+                    htmlFor="not-share-donate"
                     className="text-sm text-muted-foreground leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                   >
                     Não divulgar meu nome/empresa publicamente
@@ -191,10 +191,10 @@ export default function DonateOpts({ value, org }: TDonateOptsProps) {
               </div>
 
               <div className="items-top flex space-x-2 mt-4">
-                <Checkbox id="aditional-costs" checked disabled />
+                <Checkbox id="privacy-warn" checked disabled />
                 <div className="grid gap-1.5 leading-none">
                   <label
-                    htmlFor="aditional-costs"
+                    htmlFor="privacy-warn"
                     className="text-sm text-muted-foreground peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                   >
                     Li e concordo com esse{" "}
