@@ -3,6 +3,7 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import saudeImage from "../../assets/saude-e-bem-estar.png"
 import educacaoImage from "../../assets/educacao-de-qualidade.png"
+
 export default function Caviver() {
 
     return (
@@ -53,8 +54,9 @@ export default function Caviver() {
                             <Image src={educacaoImage} alt="Saúde e Bem-Estar" className="w-2/4" />
                         </div>
                         <h3 className="text-[#28417d] text-[24px]">Saiba mais:</h3>
-                        <a className="text-[#1398f0c6]" target="_blank" href="https://caviver.org.br/">https://caviver.org.br</a>
+                        <a className="text-[#1398f0c6]" target="_blank" href="https://caviver.org.br/">caviver.org.br</a>
                     </li>
+                    
                 </ol>
             </main >
             <Footer />
