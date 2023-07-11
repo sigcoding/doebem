@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import erradicaoImage from "../../assets/erradicao-pobreza.png"
-import saudeImage from "../../assets/saude-e-bem-estar.png"
-import trabalhoImage from "../../assets/trabalho-decente-e-crescimento-economico.png"
-import reducaoImage from "../../assets/reducao-das-desigualdades.png"
+import erradicaoImage from "../../assets/images/erradicao-pobreza.png"
+import saudeImage from "../../assets/images/saude-e-bem-estar.png"
+import trabalhoImage from "../../assets/images/trabalho-decente-e-crescimento-economico.png"
+import reducaoImage from "../../assets/images/reducao-das-desigualdades.png"
 
 export default function Dara() {
 

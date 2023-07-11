@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import saudeImage from "../../assets/saude-e-bem-estar.png"
+import saudeImage from "../../assets/images/saude-e-bem-estar.png"
 
 export default function AgainstMalariaFoundation() {
 

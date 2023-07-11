@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import saudeImage from "../../assets/saude-e-bem-estar.png"
-import educacaoImage from "../../assets/educacao-de-qualidade.png"
+import saudeImage from "../../assets/images/saude-e-bem-estar.png"
+import educacaoImage from "../../assets/images/educacao-de-qualidade.png"
 
 export default function Caviver() {
 
