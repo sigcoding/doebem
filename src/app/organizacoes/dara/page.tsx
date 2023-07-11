@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import erradicaoImage from "../../assets/images/erradicao-pobreza.png"
+import erradicaoImage from "../../assets/images/erradicacao-da-pobreza.png"
 import saudeImage from "../../assets/images/saude-e-bem-estar.png"
 import trabalhoImage from "../../assets/images/trabalho-decente-e-crescimento-economico.png"
 import reducaoImage from "../../assets/images/reducao-das-desigualdades.png"
