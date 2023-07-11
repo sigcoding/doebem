@@ -7,7 +7,6 @@ import trabalhoImage from "../../assets/images/trabalho-decente-e-crescimento-ec
 import reducaoImage from "../../assets/images/reducao-das-desigualdades.png"
 
 export default function Dara() {
-
     return (
         <>
             <Header />
