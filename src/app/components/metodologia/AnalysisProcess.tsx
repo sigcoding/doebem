@@ -14,16 +14,16 @@ type AnalysisProcessItemProps = {
 
 const AnalysisProcessItem = ({ title, imageUrl, imageAlt, isReverse }: AnalysisProcessItemProps) => {
   return (
-    <div className="flex flex-col md:flex-row max-w-[60rem] justify-around">
+    <div className="flex flex-col md:flex-row max-w-4xl justify-around">
       {isReverse ? (
         <>
-          <Image src={imageUrl} className="max-w-[20rem]" alt={imageAlt} />
-          <h4 className="text-md text-gray-700 my-8 md:my-0 md:ml-4 font-medium max-w-[20rem]">{title}</h4>
+          <Image src={imageUrl} className="max-w-xs" alt={imageAlt} />
+          <h4 className="text-md text-gray-700 my-8 md:my-0 md:ml-4 font-medium max-w-xs">{title}</h4>
         </>
       ) : (
         <>
-          <h4 className="text-md text-gray-700 mr-4 mb-8 md:mb-0 font-medium max-w-[20rem]">{title}</h4>
-          <Image src={imageUrl} className="max-w-[20rem]" alt={imageAlt} />
+          <h4 className="text-md text-gray-700 mr-4 mb-8 md:mb-0 font-medium max-w-xs">{title}</h4>
+          <Image src={imageUrl} className="max-w-xs" alt={imageAlt} />
         </>
       )}
     </div> 

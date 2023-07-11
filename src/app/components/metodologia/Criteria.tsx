@@ -1,6 +1,6 @@
 const CriteriaItems = ({ title, description }: string) => {
   return (
-    <div className="max-w-[20rem]">
+    <div className="max-w-xs">
       <h5 className="text-sm text-gray-900 font-bold text-center">{title}</h5>
       <p className="text-md text-center text-gray-700 font-medium mt-2 mb-10">{description}</p>
     </div> 
