@@ -18,7 +18,7 @@ const AnalysisProcessItem = ({ title, imageUrl, imageAlt, isReverse }: AnalysisP
       {isReverse ? (
         <>
           <Image src={imageUrl} className="max-w-[20rem]" alt={imageAlt} />
-          <h4 className="text-md text-gray-700 my-8 md:my-0 font-medium max-w-[20rem]">{title}</h4>
+          <h4 className="text-md text-gray-700 my-8 md:my-0 md:ml-4 font-medium max-w-[20rem]">{title}</h4>
         </>
       ) : (
         <>
