@@ -24,7 +24,7 @@ export default function Dara() {
                         <h2 className="text-[#28417d] text-[24px]">Onde a organização atua?</h2>
                         <p className="text-[#1e346ac6] font-light">O Instituto Dara possui três unidades na cidade do Rio de Janeiro, uma em Petrópolis e uma em Porto Alegre. A organização licencia sua metodologia para parceiros, sendo que um deles atua em São Paulo e outro em Cascais, Portugal.</p>
                         <p className="text-[#1e346ac6] font-light">Além disso, foi estabelecida uma parceria com a cidade de Belo Horizonte para a implementação da metodologia como política pública. Entendemos que tal iniciativa é importante por conta da maior capacidade de mobilização de recursos por parte do Estado, aumentando o impacto e alcance de famílias em necessidade, e também por fomentar a prática ainda incipiente no Brasil de Política Públicas baseadas em evidências.</p>
-                        <p className="text-[#1e346ac6] font-light">Leia nossa <a className="text-[#1398f0c6]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Dara-Novembro16.pdf">análise completa aqui.</a></p>
+                        <p className="text-[#1e346ac6] font-light">Leia nossa <a className="text-[#1398f0c6] hover:text-[#4b8aa4]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Dara-Novembro16.pdf">análise completa aqui.</a></p>
                     </li>
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[24px]">Como podemos ajudar?</h2>
@@ -59,11 +59,11 @@ export default function Dara() {
                             <Image src={reducaoImage} alt="Saúde e Bem-Estar" className="w-2/4 sm:w-1/4 lg:w-[230px]"/>
                         </div>
                         <h3 className="text-[#28417d] text-[24px] mx-auto">Saiba mais:</h3>
-                        <a className="text-[#1398f0c6] mx-auto" target="_blank" href="https:\\dara.org.br">dara.org.br</a>
+                        <a className="text-[#1398f0c6] mx-auto hover:text-[#4b8aa4]" target="_blank" href="https:\\dara.org.br">dara.org.br</a>
                     </li>
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[20px] text-center">Leia o que mais já publicamos sobre o Instituto Dara aqui:</h2>
-                        <a className="text-[#1398f0c6] text-center" target="_blank" href="#">Instituto Dara: há mais de 25 anos combatendo a pobreza no Brasil</a>
+                        <a className="text-[#1398f0c6] text-center hover:text-[#4b8aa4]" target="_blank" href="#">Instituto Dara: há mais de 25 anos combatendo a pobreza no Brasil</a>
                     </li>
                 </ul>
             </main >

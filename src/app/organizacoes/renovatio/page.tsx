@@ -40,7 +40,7 @@ export default function Renovatio() {
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[24px]">Transparência</h2>
                         <p className="text-[#1e346ac6] font-light">A organização se mostrou aberta para compartilhar as informações financeiras (Balanço Patrimonial e Demonstração de Resultado) e as atividades realizadas até hoje, incluindo número de triagens, consultas e óculos distribuídos por localidade e data. Em relação a pontos de melhoria, a doebem sugere o compartilhamento dessas informações no site oficial da Renovatio, assim como a contratação de uma Auditoria independente para os relatórios financeiros.</p>
-                        <p className="text-[#1e346ac6] font-light">Confira aqui <a className="text-[#1398f0c6]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Renovatio-Maio17.pdf">nossa análise completa.</a></p>
+                        <p className="text-[#1e346ac6] font-light">Confira aqui <a className="text-[#1398f0c6] hover:text-[#4b8aa4]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Renovatio-Maio17.pdf">nossa análise completa.</a></p>
                     </li>
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[24px]">Objetivos de Desenvolvimento Sustentável</h2>
@@ -49,7 +49,7 @@ export default function Renovatio() {
                             <Image src={educacaoImage} alt="Saúde e Bem-Estar" className="w-2/4 sm:w-[230px]" />
                         </div>
                         <h3 className="text-[#28417d] text-[24px] mx-auto">Saiba mais:</h3>
-                        <a className="text-[#1398f0c6] mx-auto" target="_blank" href="http://www.renovatio.org.br/">renovatio.org.br</a>
+                        <a className="text-[#1398f0c6] mx-auto hover:text-[#4b8aa4]" target="_blank" href="http://www.renovatio.org.br/">renovatio.org.br</a>
                     </li>
 
                 </ul>

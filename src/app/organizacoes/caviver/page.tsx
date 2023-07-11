@@ -45,7 +45,7 @@ export default function Caviver() {
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[24px]">Transparência</h2>
                         <p className="text-[#1e346ac6] font-light">A organização estabeleceu parceria com a Universidade Federal do Estado do Ceará para elaboração da sua primeira avaliação de impacto e se mostrou aberta a análises externas. Por ser parceira da Christian Blind Mission (CBM), a organização é auditada pela P e L Auditores Independentes, auditoria externa indicada pela CBM, uma vez ao ano. Além disso, o Caviver publica seus balanços patrimoniais e demonstrações fiscais em seu site anualmente.</p>
-                        <p className="text-[#1e346ac6] font-light">Confira aqui <a className="text-[#1398f0c6]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Caviver-Setembro17.pdf">nossa análise completa.</a></p>
+                        <p className="text-[#1e346ac6] font-light">Confira aqui <a className="text-[#1398f0c6] hover:text-[#4b8aa4]" target="_blank" href="https://doebem.org.br/wp-content/uploads/2021/02/Caviver-Setembro17.pdf">nossa análise completa.</a></p>
                     </li>
                     <li className="flex flex-col gap-2">
                         <h2 className="text-[#28417d] text-[24px]">Objetivos de Desenvolvimento Sustentável</h2>
@@ -54,7 +54,7 @@ export default function Caviver() {
                             <Image src={educacaoImage} alt="Saúde e Bem-Estar" className="w-2/4 sm:w-[230px]" />
                         </div>
                         <h3 className="text-[#28417d] text-[24px] mx-auto">Saiba mais:</h3>
-                        <a className="text-[#1398f0c6] mx-auto" target="_blank" href="https://caviver.org.br/">caviver.org.br</a>
+                        <a className="text-[#1398f0c6] mx-auto hover:text-[#4b8aa4]" target="_blank" href="https://caviver.org.br/">caviver.org.br</a>
                     </li>
                     
                 </ul>
