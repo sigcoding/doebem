@@ -13,7 +13,10 @@ import {
 import Image from "next/image";
 import DonateOpts from "./DonateOpts";
 
-export function DonateWithWoovi() {
+type DonateWithWooviProps = {
+  label: string
+}
+export function DonateWithWoovi({ label }: DonateWithWooviProps) {
   const [step, setStep] = useState<number>(0);
   const [selectedOrg, setSelectedOrg] = useState<string>("doebem");
   const [selectedValue, setSelectedValue] = useState<string>("0");
@@ -29,7 +32,7 @@ export function DonateWithWoovi() {
           height={100}
           className="h-8 w-8"
         />
-        Doar com Woovi
+        {label}
       </DialogTrigger>
 
       <DialogContent>

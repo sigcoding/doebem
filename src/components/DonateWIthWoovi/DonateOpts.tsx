@@ -5,8 +5,8 @@ import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useState } from "react";
-import { validateTaxID } from "../../../lib/validateTaxID";
-import { validateCEP } from "@/lib/validateCEP";
+import { validateTaxID } from "@lib/validateTaxID";
+import { validateCEP } from "@lib/validateCEP";
 import { TCharge, TCustomer } from "../types";
 
 type TDonateOptsProps = {
