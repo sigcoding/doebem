@@ -1,13 +1,11 @@
 "use client";
-
+import { useTranslation } from 'next-i18next';
 import Link from "next/link";
 import { Popover } from "@headlessui/react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Container } from "./Container";
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
-import { Button } from "./Button";
-import { DonateWithWoovi } from "./DonateWIthWoovi";
 
 function MenuIcon(props: any) {
   return (
@@ -48,6 +46,7 @@ function MobileNavLink({ children, ...props }: any) {
 }
 
 export function Header() {
+  const { t } = useTranslation('common')
   return (
     <header>
       <nav>
